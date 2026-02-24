@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #170f16;
+  color: #e8e8e8;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 20px 10px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+
+.subtitle {
+  color: #958a79;
+  font-size: 0.9rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.filters button {
+  background: #1a1d24;
+  border: 1px solid #2a2f3a;
+  color: #e6e6e6;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.filters button:hover {
+  border-color: #4cffb0;
+  box-shadow: 0 0 8px rgba(76, 255, 176, 0.4);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 20px 40px 60px;
+  gap: 20px;
+}
+
+.card {
+  background: #1a1d24;
+  border: 1px solid #2a2f3a;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  border-color: #ff6ec7;
+  box-shadow: 0 0 12px rgba(255, 110, 199, 0.3);
+  transform: translateY(-4px);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.content {
+  color: #b8bcc6;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #7a808a;
+}
