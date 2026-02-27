@@ -14,11 +14,13 @@ body {
   margin: 0;
   font-size: 2rem;
   letter-spacing: 1px;
+  text-shadow: 0 0 38px rgba(76, 255, 176, 0.4);
+  color: #4cffb0;
 }
 
 
 .subtitle {
-  color: #958a79;
+  color: #95798f;
   font-size: 0.9rem;
 }
 
@@ -42,6 +44,8 @@ body {
 .filters button:hover {
   border-color: #4cffb0;
   box-shadow: 0 0 8px rgba(76, 255, 176, 0.4);
+  color: #4cffb0;
+  text-shadow: 0 0 8px rgba(76, 255, 176, 0.4);
 }
 
 .card-container {
@@ -63,6 +67,8 @@ body {
   border-color: #ff6ec7;
   box-shadow: 0 0 12px rgba(255, 110, 199, 0.3);
   transform: translateY(-4px);
+  color: #ff6ec7;
+  text-shadow: 0 0 12px rgba(255, 110, 199, 0.3);
 }
 
 .card h2 {

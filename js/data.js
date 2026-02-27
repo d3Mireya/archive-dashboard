@@ -25,9 +25,21 @@ const entries = [
     date: "2026-02-21"
   },
   {
-    category: "",
-    title: "",
-    content: " ",
-    date: ""
+    category: "music",
+    title: "Both Sides - NCT JNJM",
+    content: "New music to start the day and used to make content.",
+    date: "2026-02-23"
   },
+  {
+    category: "learning",
+    title: "Git push to GitHub pages",
+    content: "Deployed the site with GitHub Pages and synchronized local and remote files using push and pull.",
+    date: "2026-02-24"
+  },
+  {
+    category: "learning",
+    title: "Passed JavaScript Objects Quiz",
+    content: "Finaly passed and understood the concepts in the JavaScript Objects part of freeCodeCamp.",
+    date: "2026-02-26"
+  }
 ];
